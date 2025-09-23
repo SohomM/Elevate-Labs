@@ -34,7 +34,7 @@ To open and write to a file in Python, use the `open()` function with write mode
 with open('filename.txt', 'w') as file:
     file.write('Hello, world!')
 ```
-This creates the file if it doesn't exist or overwrites it if it does.[5][8]
+This creates the file if it doesn't exist or overwrites it if it does.
 
 ***
 
@@ -45,7 +45,7 @@ This creates the file if it doesn't exist or overwrites it if it does.[5][8]
 - `'x'` : Create (fails if file exists)
 - `'b'` : Binary mode (e.g. `'rb'`, `'wb'`)
 - `'t'` : Text mode (default)
-- Modes can be combined, e.g., `'r+'` (read and write).[1][6][5]
+- Modes can be combined, e.g., `'r+'` (read and write).
 
 ***
 
@@ -55,7 +55,7 @@ This creates the file if it doesn't exist or overwrites it if it does.[5][8]
 line = "  hello \n"
 print(line.strip())  # Output: "hello"
 ```
-This is useful when processing text data from files.[1]
+This is useful when processing text data from files.
 
 ***
 
@@ -66,7 +66,7 @@ tasks = ["task1", "task2"]
 tasks.append("task3")
 print(tasks)  # ['task1', 'task2', 'task3']
 ```
-Lists support indexing, slicing, and iteration.[1]
+Lists support indexing, slicing, and iteration.
 
 ***
 
@@ -104,7 +104,7 @@ with open('file.txt', 'w') as f:
     f.write('data')
 # File is closed here
 ```
-Helps prevent resource leaks and errors.[5][1]
+Helps prevent resource leaks and errors.
 
 ***
 
@@ -115,16 +115,16 @@ with open('myfile.txt', 'r') as file:
     for line in file:
         print(line.strip())
 ```
-This reads one line at a time efficiently.[5][1]
+This reads one line at a time efficiently.
 
 ***
 
 ### 9. What is a data structure?
-A data structure is a way of organizing and storing data so it can be accessed and modified efficiently. Examples include lists, dictionaries, sets, and tuples in Python.[1]
+A data structure is a way of organizing and storing data so it can be accessed and modified efficiently. Examples include lists, dictionaries, sets, and tuples in Python.
 
 ***
 
 ### 10. What happens if the file doesn't exist?
 - In `'r'` (read) mode: Raises a `FileNotFoundError`.
-- In `'w'` or `'a'` mode: Creates a new empty file.[6][1]
+- In `'w'` or `'a'` mode: Creates a new empty file.
 
