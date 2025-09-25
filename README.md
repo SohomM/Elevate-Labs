@@ -128,3 +128,49 @@ A data structure is a way of organizing and storing data so it can be accessed a
 - In `'r'` (read) mode: Raises a `FileNotFoundError`.
 - In `'w'` or `'a'` mode: Creates a new empty file.
 
+
+
+### TASK-3
+
+```markdown
+# Interview Questions & Answers
+
+## 1. What is a GET request?
+A GET request is an HTTP method used to request data from a specified resource. It is commonly used to retrieve information from a server without making any changes on the server.
+
+## 2. How do you install external packages in Python?
+External packages in Python are installed using the `pip` command.  
+For example:
+```
+pip install package_name
+```
+Replace `package_name` with the actual package you want to install.
+
+## 3. What is a User-Agent in HTTP?
+A User-Agent is a string sent by browsers or programs in the HTTP request header that identifies the client software, its version, and operating system. Servers can use this info to tailor responses.
+
+## 4. What is `soup.find_all()` used for?
+`soup.find_all()` is a BeautifulSoup function that finds all tags that match given criteria (such as tag name or attributes) in an HTML document. It returns a list of matching elements.
+
+## 5. What are the risks of web scraping?
+Risks include violating website terms of service, being blocked or banned, overloading server resources, and legal issues (if scraping protected content).
+
+## 6. What’s the difference between id and class in HTML?
+- `id`: An attribute that uniquely identifies a single HTML element on a page.
+- `class`: An attribute used to group multiple elements for styling or scripting; multiple elements can share the same class.
+
+## 7. What is an HTML tag?
+An HTML tag is a markup element used to define and structure content within a web page. Examples include `<h1>`, `<div>`, `<img>`, etc.
+
+## 8. What does `.text` return in BeautifulSoup?
+The `.text` attribute returns all the text content within a tag, excluding any markup. It is used to extract plain readable text from HTML elements.
+
+## 9. What is a try-except block?
+A try-except block in Python is used for error handling. Code in the `try` block executes normally, while any exceptions are caught and handled in the `except` block.
+
+## 10. What are HTTP status codes?
+HTTP status codes are three-digit numbers in response headers that indicate the outcome of an HTTP request. For example:
+- 200: OK (Success)
+- 404: Not Found
+- 500: Internal Server Error
+```
