@@ -177,7 +177,7 @@ HTTP status codes are three-digit numbers in response headers that indicate the 
 
 ### TASK-4
 
-Here’s a clean and easy **GitHub README.md** style answer for your questions:
+Interview answers:
 
 ````markdown
 # Flask & REST API Basics
@@ -246,3 +246,29 @@ curl -X GET http://127.0.0.1:5000/users
 ### 10. Can we use a database instead of memory?
 
 Yes ✅. Instead of storing data in a Python dictionary, you can connect Flask to databases like SQLite, MySQL, or PostgreSQL for permanent storage.
+
+
+### How to Run:
+
+1. Save this code as `app.py`
+2. Install Flask:
+
+   ```bash
+   pip install flask
+   ```
+3. Run the app:
+
+   ```bash
+   python app.py
+   ```
+4. Test with Postman or Curl:
+
+   * `GET /users`
+   * `POST /users` with JSON body like:
+
+     ```json
+     { "name": "Alice", "email": "alice@example.com" }
+     ```
+   * `PUT /users/1` to update
+   * `DELETE /users/1` to remove
+
