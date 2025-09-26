@@ -174,3 +174,75 @@ HTTP status codes are three-digit numbers in response headers that indicate the 
 - 404: Not Found
 - 500: Internal Server Error
 ```
+
+### TASK-4
+
+Here’s a clean and easy **GitHub README.md** style answer for your questions:
+
+````markdown
+# Flask & REST API Basics
+
+### 1. What is Flask?
+Flask is a lightweight Python web framework used to build web applications and REST APIs.
+
+### 2. What is REST?
+REST (Representational State Transfer) is an architectural style for building APIs that use HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources.
+
+### 3. Difference between GET and POST?
+- **GET**: Used to retrieve data from the server. Data is sent in the URL.
+- **POST**: Used to send data to the server (e.g., creating a resource). Data is sent in the request body.
+
+### 4. How does a Flask route work?
+A route in Flask maps a URL path to a Python function.  
+Example:
+```python
+@app.route('/hello')
+def hello():
+    return "Hello World!"
+````
+
+### 5. What is request.json?
+
+`request.json` is a Flask object that gives you the JSON data sent in the body of a POST/PUT request.
+
+### 6. What are status codes like 200, 404?
+
+* **200 OK** → Request successful
+* **201 Created** → Resource created successfully
+* **400 Bad Request** → Invalid request
+* **404 Not Found** → Resource not found
+* **500 Internal Server Error** → Server-side error
+
+### 7. How do you run a Flask app?
+
+1. Save the code in `app.py`
+2. Install Flask: `pip install flask`
+3. Run: `python app.py`
+4. Open: `http://127.0.0.1:5000/`
+
+### 8. What is JSON?
+
+JSON (JavaScript Object Notation) is a lightweight data format used for exchanging data between client and server.
+Example:
+
+```json
+{
+  "id": 1,
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+```
+
+### 9. How to test an API?
+
+* Use **Postman** (GUI tool for sending API requests)
+* Use **curl** command in terminal
+  Example:
+
+```bash
+curl -X GET http://127.0.0.1:5000/users
+```
+
+### 10. Can we use a database instead of memory?
+
+Yes ✅. Instead of storing data in a Python dictionary, you can connect Flask to databases like SQLite, MySQL, or PostgreSQL for permanent storage.
